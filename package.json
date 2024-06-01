@@ -23,5 +23,10 @@
     "clipboardy": "^4.0.0",
     "commander": "^12.1.0",
     "qrcode": "^1.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https:/github.com/oystr29/qrip.git"
+  },
+  "homepage": "https:/github.com/oystr29/qrip#readme"
 }
