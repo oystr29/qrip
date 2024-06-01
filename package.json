@@ -1,5 +1,5 @@
 {
-  "name": "qrip",
+  "name": "qrip-cli",
   "bin": {
     "qrip": "./dist/index.js"
   },

@@ -1,11 +1,11 @@
 ## qrip-cli
 
-![qrip-logo]('./assets/logo.png')
+![qrip-logo]('https://github.com/oystr29/qrip/blob/main/assets/logo.png')
 _expose your ip address to the world_
 
 qrip is a cli that let you to get your current ip address of connected network. 
 
-all you have to is just install [node][https://nodejs.org/en] and install it globally.
+all you have to is just install [node](https://nodejs.org/en) and install it globally.
 
 ```bash
 npm install -g qrip-cli
