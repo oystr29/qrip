@@ -1,6 +1,7 @@
 ## qrip-cli
 
-![qrip-logo]('https://github.com/oystr29/qrip/blob/main/assets/logo.png')
+![qrip-logo](https://github.com/oystr29/qrip/blob/main/assets/logo.png)
+
 _expose your ip address to the world_
 
 qrip is a cli that let you to get your current ip address of connected network. 
