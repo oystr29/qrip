@@ -17,7 +17,7 @@ npm install -g qrip-cli
 just run qrip and it will show you the qr code of your ip.
 
 ```bash
-qrip                    # http: 192.168.x.x
+qrip                    # http://192.168.x.x
 ```
 
 ### add port
@@ -25,7 +25,7 @@ qrip                    # http: 192.168.x.x
 to add port, just use the flags `-p` or `--port`
 
 ```bash
-qrip -p 3000            # http: 192.168.x.x:3000
+qrip -p 3000            # http://192.168.x.x:3000
 ```
 
 ### route
@@ -33,8 +33,8 @@ qrip -p 3000            # http: 192.168.x.x:3000
 if you want a route behind the url, use the flags `-r` or `--route`
 
 ```bash
-qrip -r dashboard           # http: 192.168.x.x/dashboard
-qrip -r dashboard -p 3000           # http: 192.168.x.x:3000/dashboard
+qrip -r dashboard           # http://192.168.x.x/dashboard
+qrip -r dashboard -p 3000           # http://192.168.x.x:3000/dashboard
 ```
 
 ### copy to clipboard
