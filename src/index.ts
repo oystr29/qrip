@@ -21,15 +21,15 @@ program
   .name("qrip")
   .description(chalk.magenta("expose your ip addreess to the world🌍"))
   .option(
-    chalk.yellowBright("-p, --port <port-number>"),
+    "-p, --port <port-number>",
     "give the url path (http://<ip-address>:<port>)",
   )
   .option(
-    chalk.yellowBright("-r, --route <path-route>"),
+    "-r, --route <path-route>",
     "give the url a route (http://<ip-address>/<route>",
   )
-  .option(chalk.yellowBright("-s, --show"), "show the ip address")
-  .option(chalk.yellowBright("-c, --copy"), "copy the ip address to clipboard")
+  .option("-s, --show", "show the ip address")
+  .option("-c, --copy", "copy the ip address to clipboard")
   .action(
     async (opts: {
       port?: string;
