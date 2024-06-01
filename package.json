@@ -3,7 +3,7 @@
   "bin": {
     "qrip": "./dist/index.js"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "expose your ip address to the world",
   "type": "module",
   "main": "index.js",
@@ -13,6 +13,12 @@
   },
   "author": "oystr",
   "license": "MIT",
+  "keyword": [
+    "qrip-cli",
+    "qrip",
+    "ip address",
+    "scanner"
+  ],
   "devDependencies": {
     "@types/node": "^20.13.0",
     "@types/qrcode": "^1.5.5",
