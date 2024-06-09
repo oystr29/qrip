@@ -4,9 +4,11 @@
 
 _expose your ip address to the world_
 
+![NPM Downloads](https://img.shields.io/npm/dy/qrip-cli?logo=npm)
+
 qrip is a cli that let you to get your current ip address of connected network. 
 
-all you have to is just install [node](https://nodejs.org/en) and install it globally.
+all you have todo is just install [node](https://nodejs.org/en) then run these command below:
 
 ```bash
 npm install -g qrip-cli
@@ -14,10 +16,10 @@ npm install -g qrip-cli
 
 ## usage
 
-just run qrip and it will show you the qr code of your ip.
+just run `qrip` and it will show you the qr code of your ip.
 
 ```bash
-qrip                    # http://192.168.x.x
+qrip                        # http://192.168.x.x
 ```
 
 ### add port
@@ -25,7 +27,7 @@ qrip                    # http://192.168.x.x
 to add port, just use the flags `-p` or `--port`
 
 ```bash
-qrip -p 3000            # http://192.168.x.x:3000
+qrip -p 3000                # http://192.168.x.x:3000
 ```
 
 ### route
@@ -34,7 +36,7 @@ if you want a route behind the url, use the flags `-r` or `--route`
 
 ```bash
 qrip -r dashboard           # http://192.168.x.x/dashboard
-qrip -r dashboard -p 3000           # http://192.168.x.x:3000/dashboard
+qrip -r dashboard -p 3000   # http://192.168.x.x:3000/dashboard
 ```
 
 ### copy to clipboard

@@ -57,6 +57,9 @@ program
       const port = opts.port ? `:${opts.port}` : "";
       const route = opts.route ? `/${opts.route}` : "";
       const url = `http://${addresses[0]}${port}${route}`;
+      console.log(chalk.blue("This is your QR CODE"));
+      console.log(chalk.blueBright("Scan it using your camera phone"));
+
       await generateQR(url);
 
       if (opts.show) {
